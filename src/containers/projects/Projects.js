@@ -59,6 +59,7 @@ export default function Projects() {
               );
             })}
           </div>
+          
           <Button
             text={"More Projects"}
             className="project-button"

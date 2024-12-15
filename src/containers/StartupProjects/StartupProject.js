@@ -17,7 +17,7 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   };
-  
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
