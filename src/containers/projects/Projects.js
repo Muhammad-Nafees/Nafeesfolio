@@ -17,21 +17,21 @@ export default function Projects() {
   useEffect(() => {
     const getRepoData = () => {
       fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
+      .then(result => {
+        console.log("Fetch Result:", result);
+        if (result.ok) {
+          return result.json();
+        }
+        throw new Error(`HTTP Error: ${result.status}`);
+      })
+      .then(response => {
+        console.log("Response JSON:", response);
+        setrepoFunction(response.data.user.pinnedItems.edges);
+      })
+      .catch(error => {
+        console.error("Error in Fetch:", error);
+        setrepoFunction("Error");
+      });
     };
     getRepoData();
   }, []);

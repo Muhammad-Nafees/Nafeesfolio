@@ -13,7 +13,8 @@ export default function Profile() {
     setrepo(array);
   }
 
-  useEffect(() => {
+
+   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
         fetch("/profile.json")
@@ -36,6 +37,8 @@ export default function Profile() {
       getProfileData();
     }
   }, []);
+
+
   if (
     openSource.display &&
     openSource.showGithubProfile === "true" &&
@@ -49,4 +52,4 @@ export default function Profile() {
   } else {
     return <Contact />;
   }
-}
+};

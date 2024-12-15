@@ -2,13 +2,16 @@
 
 .contact-div-main {
   display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  // background-color: rebeccapurple;
 }
 
 .dark-mode a {
   color: $textColorDark;
 }
 
-.contact-div-main > * {
+.contact-div-main>* {
   flex: 1;
 }
 
@@ -45,15 +48,27 @@
   margin-top: 4rem;
 }
 
-.contact-image-div > img {
-  max-width: 100%;
-  height: auto;
+.contact-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image-div>img {
+  max-width: 50%;
+  // height: 80%;
   margin-left: 1.5rem;
-  margin-top: -4rem;
+  // margin-top: -4rem;
+  align-self: center;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  display: flex;
 }
 
 /* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
+@media (max-width: 1380px),
+(max-width: 768px) {
   .contact-title {
     font-size: 56px;
     font-weight: 400;
@@ -81,7 +96,15 @@
     font-size: 20px;
   }
 
-  .contact-image-div {
-    display: none;
+  /* Flex layout change for .contact-div-main */
+  @media (max-width: 768px) {
+    .contact-div-main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-image-div>img {
+      margin-top: 30px;
+    }
   }
 }

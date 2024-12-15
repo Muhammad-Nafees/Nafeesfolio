@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Nafees Ahmed",
+  title: "Hi all, I'm Nafees",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Muhammad-Nafees",
+  linkedin: "https://www.linkedin.com/in/muhammad-nafees2002/",
+  gmail: "nafeessocial@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/profile.php?id=100049798183538",
+  // medium: "https://medium.com/@nafeessocial",
+  stackoverflow: "https://stackoverflow.com/users/edit/23714537",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -85,6 +85,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "react native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -126,23 +130,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Nusrat Bhutto College",
+      logo: require("./assets/images/nusratBhutto.jpeg"),
+      subHeader: "Intermediate in Computer Science (ICS)",
+      duration: "August 2020 - July 2022",
+      desc: "Gained foundational knowledge in computer science and programming concepts, with a strong emphasis on mathematics and logical thinking.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Achieved distinction in programming and mathematics subjects.",
+        "Participated in inter-college coding competitions and won 1st place.",
+        "Led a team project on basic software development, showcasing skills in problem-solving and collaboration."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "St. Patrick College",
+      logo: require("./assets/images/stPatrickLogo.jpeg"), // Replace with the actual logo path
+      subHeader: "Diploma of Associate Engineering (DAE) in Information Technology",
+      duration: "September 2019 - April 2022",
+      desc: "Specialized in Information Technology with a focus on networking, programming, and database management. Developed hands-on skills through practical projects and assignments.",
+      descBullets: [
+        "Achieved distinction in software development and database management.",
+        "Led a final-year project on creating an inventory management system.",
+        "Participated in inter-college IT competitions and secured 1st place in a coding challenge.",
+        "Completed multiple certifications in networking and web development."
+      ]
     }
   ]
 };
@@ -158,11 +168,15 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "React Native",
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,30 +188,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "React Native Full Stack Developer",
+      company: "97 Solutions",
+      companylogo: require("./assets/images/97logo.jpeg"), // Replace with actual logo path
+      date: "April 2023 – september 2024",
+      desc: "Developed and deployed cross-platform mobile applications with full-stack functionalities. Collaborated with teams to deliver high-quality solutions tailored to client requirements.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed high-performance React Native apps with seamless API integrations.",
+        "Streamlined state management using Redux, ensuring optimal user experiences.",
+        "Collaborated closely with designers to deliver visually appealing and intuitive UI/UX."
       ]
+
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "React Native Developer",
+      company: "InApp Solutions",
+      companylogo: require("./assets/images/inapp-logo.gif"),
+      date: "September 2024 – Present",
+      desc: "Working as a React Native Developer at InApp Solutions, focusing on building high-performance, user-friendly mobile applications. Contributing to the design, development, and deployment of cross-platform apps while ensuring code quality and efficient integration with backend services."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+
+
   ]
 };
 
@@ -216,25 +227,36 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/peacemakerlogo.webp"),
+      projectName: "Peace Maker",
+      projectDesc: "PeaceMaker is an innovative digital health app that redefines mental health care with cutting-edge AI, offering personalized, real-time support for mental well-being. Ideal for both users and professionals, PeaceMaker provides dynamic, holistic care accessible right from your smartphone.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "App Link",
+          url: "https://play.google.com/store/apps/details?id=com.softwareAlliance.peaceMaker&hl=en&gl=US&pli=1"
         }
-        //  you can add extra buttons here.
+        // you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/storytimelogo.webp"),
+      projectName: "Story Time",
+      projectDesc: "Story Time is a revolutionary app reshaping the art of storytelling. By enabling users to convert voice to text, share stories, and engage in creative, meaningful interactions, Story Time is transforming the way we tell and experience stories.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "App link",
+          // url: "http://nextu.se/",
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/fitCirclelogo.webp"),
+      projectName: "Fit Circle",
+      projectDesc: "FitCircle is a cutting-edge social media fitness app designed to connect fitness enthusiasts with gym buddies, expert coaches, and a motivational community. By tackling common barriers like lack of motivation, support, and personalized insights, FitCircle ensures a comprehensive and engaging fitness experience.",
+      footerLink: [
+        {
+          name: "App link",
+          // url: "http://nextu.se/",
         }
       ]
     }
@@ -252,32 +274,32 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Coursera",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Server-side Development with NodeJS, Express and MongoDB",
+      image: require("./assets/images/courseralogo.png"),
+      imageAlt: "Coursera Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          // name: "Certification",
+          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          // name: "Award Letter",
+          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          // name: "Google Code-in Blog",
+          // url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Coursera",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Front-End Web UI Frameworks and Tools",
+      image: require("./assets/images/courseralogo.png"),
+      imageAlt: "Coursera Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -292,7 +314,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -369,11 +391,13 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Reach out to Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "nafeessocial@gmail.com",
+  location: "nafeessocial@gmail.com",
+  expertise: "React Native Full Stack Developer"
 };
 
 // Twitter Section
@@ -383,7 +407,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
