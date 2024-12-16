@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Nafeesfolio/static/css/main.0b5371fd.css",
+    "main.js": "/Nafeesfolio/static/js/main.7632e8d2.js",
+    "static/css/64.bba8fa55.chunk.css": "/Nafeesfolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.3f7527db.chunk.js": "/Nafeesfolio/static/js/64.3f7527db.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/Nafeesfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.6a8bd813.chunk.js": "/Nafeesfolio/static/js/769.6a8bd813.chunk.js",
+    "static/media/inapp-logo.gif": "/Nafeesfolio/static/media/inapp-logo.fda25e2551445c6a8b95.gif",
+    "static/media/Montserrat-Regular.ttf": "/Nafeesfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/image-sea.jpeg": "/Nafeesfolio/static/media/image-sea.96a591ea56216c51ed07.jpeg",
+    "static/media/nafees-resume.pdf": "/Nafeesfolio/static/media/nafees-resume.b5b173f51651ec785dbc.pdf",
+    "static/media/Agustina.woff": "/Nafeesfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/Nafeesfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/fitCirclelogo.webp": "/Nafeesfolio/static/media/fitCirclelogo.aafb0097669845140a5d.webp",
+    "static/media/storytimelogo.webp": "/Nafeesfolio/static/media/storytimelogo.c39229f09f73a7f6e21f.webp",
+    "static/media/developerActivity.svg": "/Nafeesfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/courseralogo.png": "/Nafeesfolio/static/media/courseralogo.16fc3d0e30de8c9d2c08.png",
+    "static/media/peacemakerlogo.webp": "/Nafeesfolio/static/media/peacemakerlogo.8255fefee06684873e04.webp",
+    "static/media/stPatrickLogo.jpeg": "/Nafeesfolio/static/media/stPatrickLogo.0847378a62e1cb7f90b8.jpeg",
+    "static/media/nusratBhutto.jpeg": "/Nafeesfolio/static/media/nusratBhutto.73b561675f46fb65befd.jpeg",
+    "static/media/skill.svg": "/Nafeesfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/pwaLogo.webp": "/Nafeesfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "index.html": "/Nafeesfolio/index.html",
+    "static/media/talksCardBack.svg": "/Nafeesfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.0b5371fd.css.map": "/Nafeesfolio/static/css/main.0b5371fd.css.map",
+    "main.7632e8d2.js.map": "/Nafeesfolio/static/js/main.7632e8d2.js.map",
+    "64.bba8fa55.chunk.css.map": "/Nafeesfolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.3f7527db.chunk.js.map": "/Nafeesfolio/static/js/64.3f7527db.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/Nafeesfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.6a8bd813.chunk.js.map": "/Nafeesfolio/static/js/769.6a8bd813.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5371fd.css",
+    "static/js/main.7632e8d2.js"
+  ]
+}
